@@ -1,17 +1,16 @@
-<div align="center">
-
-```
-  ██╗██╗  ██╗████████╗██╗     ██╗
-  ██║╚██╗██╔╝╚══██╔══╝██║     ██║
-  ██║ ╚███╔╝    ██║   ██║     ██║
-  ██║ ██╔██╗    ██║   ██║     ██║
-  ██║██╔╝ ██╗   ██║   ███████╗██║
-  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝
-```
-
-**Detection-as-code for Kubernetes.**
-
-</div>
+<pre align="center">
+██╗
+╚═╝
+██╗██╗  ██╗████████╗██╗     ██╗
+██║╚██╗██╔╝╚══██╔══╝██║     ██║
+██║ ╚███╔╝    ██║   ██║     ██║
+██║ ██╔██╗    ██║   ██║     ██║
+██║██╔╝ ██╗   ██║   ███████╗██║
+╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝
+</pre>
+<p align="center">
+  <strong>Īxtli — detection-as-code for Kubernetes.</strong>
+</p>
 
 Ixtli (Nahuatl for "eye") is runtime threat detection for a Kubernetes cluster, built so the detection rules are treated like actual code: they live in Git, they're written in Sigma, and they get tested in CI on every commit. If a rule stops firing, the build breaks. That's the whole idea — most detection rules rot quietly in a console and nobody notices until the alert that should've gone off doesn't.
 
