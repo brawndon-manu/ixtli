@@ -1,0 +1,6 @@
+# Boiler plate from https://kind.sigs.k8s.io/docs/user/configuration/
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+  - role: control-plane
+    # TODO: add audit policy mount so falco gets k8s audit events

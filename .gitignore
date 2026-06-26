@@ -1,0 +1,21 @@
+# cluster / kube state
+kubeconfig
+*.kubeconfig
+.kube/
+
+# secrets
+.env
+*.local.yaml
+secrets/
+
+# generated falco rules
+detections/falco/generated/
+
+# scratch
+*.log
+tmp/
+.cache/
+
+# os
+.DS_Store
+Thumbs.db
